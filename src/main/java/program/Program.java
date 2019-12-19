@@ -15,9 +15,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-
-
-//полгая херня!!!!!!!!1
+//дадададада
 public class Program {
     public static void main(String[] args) {
         try
@@ -71,7 +69,6 @@ public class Program {
         }*/
 
         /*try {
-
 
             ArrayList<Pupil> list = Olymp.loadData("tui.txt");
             Object o = Olymp.getCountScoreSemiWinners(list);
