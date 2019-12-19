@@ -2,18 +2,22 @@ package program;
 
 import model.Pupil;
 import olymp.Olymp;
+import sort.Sort;
 import student.Student;
 import univOlymp.UnivOlymp;
+import utils.DataWriter;
+
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
+import java.util.*;
 
 public class Program {
     public static void main(String[] args) {
-        /*try
+        try
         {
             File in = new File(args[0]);
             File out = new File(in.getParentFile().getAbsolutePath() + "\\s_" + in.getName());
@@ -29,8 +33,8 @@ public class Program {
             System.out.println("file is not found");
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
-        /*Map<Integer, String> map = new TreeMap<>(new Comparator<Integer>() {
+        }
+        Map<Integer, String> map = new TreeMap<>(new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
                 return -o1.compareTo(o2);
@@ -40,14 +44,14 @@ public class Program {
         map.put(2, "fddff");
         map.put(0, "ert");
         map.put(4, "eddrt");
-        System.out.println(map);*/
-        /*try {
+        System.out.println(map);
+        try {
             ArrayList<Student> stud = UnivOlymp.loadData("tui.txt");
             ArrayList<Integer> l = UnivOlymp.getSchoolByAverPoint(stud);
             System.out.println(l);
         } catch (FileNotFoundException e) {
             System.out.println("no file");
-        }*/
+        }
 
        /* Date date = new Date();
         System.out.println(date);
@@ -63,7 +67,7 @@ public class Program {
             e.printStackTrace();
         }*/
 
-        try {
+        /*try {
 
 
             ArrayList<Pupil> list = Olymp.loadData("tui.txt");
@@ -79,6 +83,6 @@ public class Program {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }
