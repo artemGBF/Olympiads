@@ -11,6 +11,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+
+
+//полгая херня!!!!!!!!1
 public class Program {
     public static void main(String[] args) {
         /*try
